@@ -3,14 +3,15 @@
 #include<cmath>
 using namespace std;
 int main()
+
 {
-    //cout<<sqrt(9)<<endl;
+    
     double radian,degree;
     double pi = 3.14159265;
     string ratio;
     cout<<"Enter your Trignometric Ratio:";
     cin>>ratio;
-    cout<<"Enter your value in degree(Please enter a value below 91 only):";
+    cout<<"Enter your value in degree:";
     cin>>degree;
     radian = degree*(pi/180);
     if (ratio == "sin")
